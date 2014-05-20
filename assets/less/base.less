@@ -1,0 +1,103 @@
+// Core variables and mixins
+@import "variables.less";
+@import "mixins/mixins.less";
+
+// Reset
+@import "reset/normalize.less";
+@import "reset/print.less";
+
+// Core CSS
+@import "core/fonts.less";
+@import "core/scaffolding.less";
+@import "core/type.less";
+@import "core/code.less";
+@import "core/grid.less";
+@import "core/tables.less";
+@import "core/forms.less";
+@import "core/buttons.less";
+
+// Components
+@import "components/component-animations.less";
+@import "components/icons.less";
+@import "components/dropdowns.less";
+@import "components/button-groups.less";
+@import "components/input-groups.less";
+@import "components/navs.less";
+@import "components/navbar.less";
+@import "components/breadcrumbs.less";
+@import "components/pagination.less";
+@import "components/pager.less";
+@import "components/labels.less";
+@import "components/badges.less";
+@import "components/jumbotron.less";
+@import "components/thumbnails.less";
+@import "components/alerts.less";
+@import "components/progress-bars.less";
+@import "components/media.less";
+@import "components/list-group.less";
+@import "components/panels.less";
+@import "components/wells.less";
+@import "components/close.less";
+
+// Components w/ JavaScript
+@import "components-js/modals.less";
+@import "components-js/tooltip.less";
+@import "components-js/popovers.less";
+@import "components-js/carousel.less";
+
+// Utility classes
+@import "utilities/utilities.less";
+@import "utilities/responsive-utilities.less";
+
+// Page Modules
+@import "modules/header.less";
+
+
+
+
+#footer {
+  padding: 100px 0 40px;
+  background-color: #0d2034;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links {
+  
+  .list-unstyled();
+
+  margin-bottom: 60px;
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  a {
+    
+    background-color: #8e9f3c;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 25px;
+
+    &:before {
+      font-size: 3em;
+      color: #000;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+      background-color: #bfd74b;
+      transition: background-color 0.5s;
+
+      &:before {
+        color: #3276b1;
+        transition: color 0.5s;
+
+      }
+
+    }
+  }
+}

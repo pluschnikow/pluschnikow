@@ -1,0 +1,200 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+.clearfix {
+  .clearfix();
+}
+.center-block {
+  .center-block();
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  .text-hide();
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  position: fixed;
+}
+
+
+
+
+// Margins
+// --------------------
+
+.mt-0 { margin-top: 0 !important; }
+.mt-10 { margin-top: 10px !important; }
+.mt-15 { margin-top: 15px !important; }
+.mt-20 { margin-top: 20px !important; }
+.mt-25 { margin-top: 25px !important; }
+.mt-30 { margin-top: 30px !important; }
+.mt-40 { margin-top: 40px !important; }
+.mt-50 { margin-top: 50px !important; }
+.mt-60 { margin-top: 60px !important; }
+.mt-70 { margin-top: 70px !important; }
+.mt-80 { margin-top: 80px !important; }
+.mt-90 { margin-top: 90px !important; }
+.mt-100 { margin-top: 100px !important; }
+.mt-110 { margin-top: 110px !important; }
+.mt-120 { margin-top: 120px !important; }
+
+.mb-0 { margin-bottom: 0 !important; }
+.mb-10 { margin-bottom: 10px !important; }
+.mb-15 { margin-bottom: 15px !important; }
+.mb-20 { margin-bottom: 20px !important; }
+.mb-25 { margin-bottom: 25px !important; }
+.mb-30 { margin-bottom: 30px !important; }
+.mb-40 { margin-bottom: 40px !important; }
+.mb-50 { margin-bottom: 50px !important; }
+.mb-60 { margin-bottom: 60px !important; }
+.mb-70 { margin-bottom: 70px !important; }
+.mb-80 { margin-bottom: 80px !important; }
+.mb-90 { margin-bottom: 90px !important; }
+
+.mr-0 { margin-right: 0 !important; }
+.mr-10 { margin-right: 10px !important; }
+.mr-15 { margin-right: 15px !important; }
+.mr-20 { margin-right: 20px !important; }
+.mr-25 { margin-right: 25px !important; }
+.mr-30 { margin-right: 30px !important; }
+.mr-40 { margin-right: 40px !important; }
+.mr-50 { margin-right: 50px !important; }
+.mr-60 { margin-right: 60px !important; }
+.mr-70 { margin-right: 70px !important; }
+.mr-80 { margin-right: 80px !important; }
+.mr-90 { margin-right: 90px !important; }
+
+
+
+// mobile
+@media only screen and (min-width: 0px) and (max-width: (@screen-sm - 1) ) {
+
+  .mt-xs-0 { margin-top: 0 !important; }
+  .mt-xs-10 { margin-top: 10px !important; }
+  .mt-xs-15 { margin-top: 15px !important; }
+  .mt-xs-20 { margin-top: 20px !important; }
+  .mt-xs-25 { margin-top: 25px !important; }
+  .mt-xs-30 { margin-top: 30px !important; }
+  .mt-xs-40 { margin-top: 40px !important; }
+  .mt-xs-50 { margin-top: 50px !important; }
+  .mt-xs-60 { margin-top: 60px !important; }
+  .mt-xs-70 { margin-top: 70px !important; }
+  .mt-xs-80 { margin-top: 80px !important; }
+  .mt-xs-90 { margin-top: 90px !important; }
+  .mt-xs-100 { margin-top: 100px !important; }
+  .mt-xs-110 { margin-top: 110px !important; }
+  .mt-xs-120 { margin-top: 120px !important; }
+
+  .mb-xs-0 { margin-bottom: 0 !important; }
+  .mb-xs-10 { margin-bottom: 10px !important; }
+  .mb-xs-15 { margin-bottom: 15px !important; }
+  .mb-xs-20 { margin-bottom: 20px !important; }
+  .mb-xs-25 { margin-bottom: 25px !important; }
+  .mb-xs-30 { margin-bottom: 30px !important; }
+  .mb-xs-40 { margin-bottom: 40px !important; }
+  .mb-xs-50 { margin-bottom: 50px !important; }
+  .mb-xs-60 { margin-bottom: 60px !important; }
+  .mb-xs-70 { margin-bottom: 70px !important; }
+  .mb-xs-80 { margin-bottom: 80px !important; }
+  .mb-xs-90 { margin-bottom: 90px !important; }
+
+  .mr-xs-0 { margin-right: 0 !important; }
+  .mr-xs-10 { margin-right: 10px !important; }
+  .mr-xs-15 { margin-right: 15px !important; }
+  .mr-xs-20 { margin-right: 20px !important; }
+  .mr-xs-25 { margin-right: 25px !important; }
+  .mr-xs-30 { margin-right: 30px !important; }
+  .mr-xs-40 { margin-right: 40px !important; }
+  .mr-xs-50 { margin-right: 50px !important; }
+  .mr-xs-60 { margin-right: 60px !important; }
+  .mr-xs-70 { margin-right: 70px !important; }
+  .mr-xs-80 { margin-right: 80px !important; }
+  .mr-xs-90 { margin-right: 90px !important; }
+}
+
+
+
+// tablet
+@media only screen and (min-width: @screen-xs-max) and (max-width: @screen-sm-max) {
+
+  .mt-sm-0 { margin-top: 0 !important; }
+  .mt-sm-10 { margin-top: 10px !important; }
+  .mt-sm-15 { margin-top: 15px !important; }
+  .mt-sm-20 { margin-top: 20px !important; }
+  .mt-sm-25 { margin-top: 25px !important; }
+  .mt-sm-30 { margin-top: 30px !important; }
+  .mt-sm-40 { margin-top: 40px !important; }
+  .mt-sm-50 { margin-top: 50px !important; }
+  .mt-sm-60 { margin-top: 60px !important; }
+  .mt-sm-70 { margin-top: 70px !important; }
+  .mt-sm-80 { margin-top: 80px !important; }
+  .mt-sm-90 { margin-top: 90px !important; }
+  .mt-sm-100 { margin-top: 100px !important; }
+  .mt-sm-110 { margin-top: 110px !important; }
+  .mt-sm-120 { margin-top: 120px !important; }
+
+  .mb-sm-0 { margin-bottom: 0 !important; }
+  .mb-sm-10 { margin-bottom: 10px !important; }
+  .mb-sm-15 { margin-bottom: 15px !important; }
+  .mb-sm-20 { margin-bottom: 20px !important; }
+  .mb-sm-25 { margin-bottom: 25px !important; }
+  .mb-sm-30 { margin-bottom: 30px !important; }
+  .mb-sm-40 { margin-bottom: 40px !important; }
+  .mb-sm-50 { margin-bottom: 50px !important; }
+  .mb-sm-60 { margin-bottom: 60px !important; }
+  .mb-sm-70 { margin-bottom: 70px !important; }
+  .mb-sm-80 { margin-bottom: 80px !important; }
+  .mb-sm-90 { margin-bottom: 90px !important; }
+
+  .mr-sm-0 { margin-right: 0 !important; }
+  .mr-sm-10 { margin-right: 10px !important; }
+  .mr-sm-15 { margin-right: 15px !important; }
+  .mr-sm-20 { margin-right: 20px !important; }
+  .mr-sm-25 { margin-right: 25px !important; }
+  .mr-sm-30 { margin-right: 30px !important; }
+  .mr-sm-40 { margin-right: 40px !important; }
+  .mr-sm-50 { margin-right: 50px !important; }
+  .mr-sm-60 { margin-right: 60px !important; }
+  .mr-sm-70 { margin-right: 70px !important; }
+  .mr-sm-80 { margin-right: 80px !important; }
+  .mr-sm-90 { margin-right: 90px !important; }
+}
