@@ -1,0 +1,48 @@
+// footer 
+
+#footer {
+  padding: 100px 0 40px;
+  background-color: #0d2034;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links {
+  
+  .list-unstyled();
+
+  margin-bottom: 60px;
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  a {
+    
+    background-color: #8e9f3c;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 25px;
+
+    &:before {
+      font-size: 3em;
+      color: #000;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+      background-color: #bfd74b;
+      transition: background-color 0.5s;
+
+      &:before {
+        color: #3276b1;
+        transition: color 0.5s;
+
+      }
+
+    }
+  }
+}

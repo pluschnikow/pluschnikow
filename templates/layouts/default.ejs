@@ -3,64 +3,25 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Konstantin Pluschnikow - Web Developer - Cologne, Germany</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link href="css/style.css" rel="stylesheet">
-</head>
+<% include ../includes/base/head.ejs %>
 <body>
   <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-
   <div class="site-wrapper">
+    <main class="container-fluid">
 
+      <% include ../includes/components/header.ejs %>
 
-  <main class="container-fluid">
+      <section class="row mt-50 mb-50">
+        <%-body -%>
+      </section>
 
-    <section id="header" class="row" data-jsinit="paralax">
+      <% include ../includes/components/footer.ejs %>
 
-      <img class="photo" src="../images/header.png" alt="Photo of Konstantin Pluschnikow">
-      <div class="board">
-        <div class="bg"></div>
-        
-        <div class="content">
-          <h1>Konstantin Pluschnikow</h1>
-          <h2 class="mb-50 mb-sm-20 mb-xs-20">I am a <strong>Developer</strong>, working in <strong>Cologne</strong>.</h2>
-          <a class="btn btn-primary btn-lg" href="#">Get in touch</a>
-        </div>
-
-      </div>
-      
-    </section>
-
-    <section class="row mt-50 mb-50">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <h2>ABOUT ME</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="col-md-3"></div>
-    </section>
-
-
-
-    <footer id="footer" class="row">
-      <ul class="social-links"> 
-        <li><a href="https://twitter.com/konsi_fonsi" title="Twitter" class="icon-twitter"></a></li>
-        <li><a href="https://github.com/pluschnikow" title="Github" class="icon-github"></a></li>
-        <li><a href="https://www.xing.com/profile/Konstantin_Pluschnikow?sc_o=mxb_p" titile="Xing" class="icon-xing"></a></li>
-        <li><a href="mailto:contact@pluschnikow.de" titile="E-Mail" class="icon-email"></a></li>
-      </ul>
-
-      <small class="center-block text-center">Copyright © 2013 by Konstantin Pluschnikow</small>
-    </footer>
-
-  </main>
-</div>
+    </main>
+  </div>
 </body>
+<% include ../includes/base/foot.ejs %>
 </html>
