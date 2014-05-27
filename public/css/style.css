@@ -6754,7 +6754,7 @@ button.close {
   background-color: #222429;
   opacity: 0.4;
 }
-/* line 26, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+/* line 25, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
 #header .board .content {
   position: absolute;
   top: 14%;
@@ -6762,6 +6762,8 @@ button.close {
   color: #ffffff;
   width: 100%;
   text-align: center;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
 }
 /* line 34, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
 #header .board h1 {
@@ -6772,50 +6774,74 @@ button.close {
 #header .board h2 {
   font-size: 1.428em;
 }
+@-webkit-keyframes fadein {
+  /* line 45, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  /* line 49, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes fadein {
+  /* line 45, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  /* line 49, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
 @media (max-width: 768px) {
-  /* line 48, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 59, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header img.photo {
     width: 100%;
     margin-left: -22%;
   }
-  /* line 53, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 64, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board {
     width: 69%;
   }
-  /* line 56, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 67, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board .content {
     top: 5%;
   }
-  /* line 58, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 69, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board .content h1 {
     font-size: 1.4em;
   }
-  /* line 61, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 72, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board .content h2 {
     font-size: 1em;
   }
 }
 @media (max-width: 480px) {
-  /* line 71, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 82, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header {
     position: static;
   }
-  /* line 74, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 85, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header img.photo {
-    width: 100%;
-    margin-left: 0%;
+    width: 150%;
+    margin-left: -7%;
   }
-  /* line 79, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 90, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board {
     position: static;
     width: 100%;
     padding: 20px 0 30px;
   }
-  /* line 84, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 95, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board .bg {
     opacity: 1;
   }
-  /* line 87, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
+  /* line 98, /home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less */
   #header .board .content {
     position: static;
   }
