@@ -1,5 +1,7 @@
-# http://editorconfig.org
+; EditorConfig is awesome: http://EditorConfig.org
+
 root = true
+
 
 [*]
 indent_style = space

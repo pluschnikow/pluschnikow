@@ -1,5 +1,5 @@
 
-// pluschnikow.de Grunt Configuration File
+// jeanette-und-andreas.com Grunt Configuration File
 
 var globals= {
   port: 4000
@@ -23,11 +23,11 @@ module.exports = function( grunt ) {
     // Header Banner for Javascript & Style Files
     // --------------------------
     banner: '/*! \n' +
-              ' * <%= pkg.name %>\n' +
-              ' * <%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd, HH:MM:ss") %>\n' +
-              ' *\n' +
-              ' * (c) <%= pkg.author %> <%= grunt.template.today("yyyy") %>\n' +
-              ' */\n',
+            ' * <%= pkg.name %>\n' +
+            ' * <%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd, HH:MM:ss") %>\n' +
+            ' *\n' +
+            ' * (c) <%= pkg.author %> <%= grunt.template.today("yyyy") %>\n' +
+            ' */\n',
 
 
     // Dev Workflow Tasks
@@ -43,7 +43,7 @@ module.exports = function( grunt ) {
           jQuery: true
         }
       },
-      all: ['Gruntfile.js'], // 'models/**/*.js',
+      all: ['Gruntfile.js', 'app/**/*.js', 'public/js/main.js', 'config/**/*.js'],
     },
 
     concurrent: {
@@ -57,7 +57,7 @@ module.exports = function( grunt ) {
 
     nodemon: {
       dev: {
-        script: 'keystone.js',
+        script: 'app.js',
         options: {
           // nodeArgs: ['--debug'],
           env: {
@@ -111,21 +111,21 @@ module.exports = function( grunt ) {
           dumpLineNumbers: 'comments',
         },
         files: {
-          'public/css/style.css': 'assets/less/base.less'
+          'public/css/style.css': 'app/assets/less/base.less'
         }
       }
     },
 
     watch: {
       less: {
-        files: 'assets/less/**/*.less',
+        files: 'app/assets/less/**/*.less',
         tasks: ['less', 'autoprefixer'],
         options: {
           atBegin: true
         }
       },
       js: {
-        files: ['assets/js/*.js', 'assets/js/plugins/*.js'],
+        files: ['public/js/*.js', 'public/js/plugins/*.js', '!public/js/scripts.js'],
         tasks: ['concat'],
         options: {
           atBegin: true
@@ -139,12 +139,13 @@ module.exports = function( grunt ) {
     // @end dev workflow tasks
 
 
+
     // Build Tasks
     // --------------------------
     cssmin: {
       options: {
         banner: '/*! Stylesheets <%= pkg.name %> - v<%= pkg.version %> - ' +
-          '<%= grunt.template.today("yyyy-mm-dd") %> */',
+          '<%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.author.url %> */',
         report: 'min',
         keepSpecialComments: 0
       },
@@ -155,20 +156,12 @@ module.exports = function( grunt ) {
       }
     },
 
-    uncss: {
-      dist: {
-        files: {
-          'public/css/style.css': ['templates/views/index.html']
-        }
-      }
-    },
-
     // Javascript Concat (based on `usemin` (temp.) configuration)
     concat: {
       dist: {
         files:[{
             dest: 'public/js/scripts.js',
-            src: ['assets/js/*.js', 'assets/js/plugins/*.js']
+            src: ['public/js/*.js', 'public/js/plugins/*.js', '!public/js/scripts.js']
         }]
       }
     },
@@ -199,7 +192,7 @@ module.exports = function( grunt ) {
   grunt.registerTask('build', [
     'less',
     'autoprefixer',
-    //'cssmin',
+    'cssmin',
     'concat',
     'uglify'
   ]);
@@ -209,9 +202,8 @@ module.exports = function( grunt ) {
     'concurrent'
   ]);
 
-  grunt.registerTask('dev', ['server']);
+  grunt.registerTask('dev', ['jshint:all', 'server']);
   grunt.registerTask('prod', ['jshint:all', 'build']);
-  grunt.registerTask('uncss', ['uncss']);
   grunt.registerTask('default', ['dev']);
 
 };
