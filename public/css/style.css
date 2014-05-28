@@ -1,2 +1,3023 @@
-/*! Stylesheets www.pluschnikow.de - v0.1 - 2014-05-28 - http://www.pluschnikow.de */
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);@import url(http://fonts.googleapis.com/css?family=Fjalla+One);html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}@media print{*{text-shadow:none!important;color:#000!important;background:transparent!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="javascript:"]:after,a[href^="#"]:after{content:""}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff!important}.navbar{display:none}.table td,.table th{background-color:#fff!important}.btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}.label{border:1px solid #000}.table{border-collapse:collapse!important}.table-bordered td,.table-bordered th{border:1px solid #ddd!important}}*,:after,:before{box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#3276b1;text-decoration:none}a:focus,a:hover{color:#214e75;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-weight:400;line-height:1;color:#999}.h1,.h2,.h3,h1,h2,h3{margin-top:20px;margin-bottom:10px}.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small{font-size:65%}.h4,.h5,.h6,h4,h5,h6{margin-top:10px;margin-bottom:10px}.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{font-size:75%}.h1,h1{font-size:36px}.h2,h2{font-size:30px}.h3,h3{font-size:24px}.h4,h4{font-size:18px}.h5,h5{font-size:14px}.h6,h6{font-size:12px}p{margin:0 0 10px}.lead{margin-bottom:20px;font-size:16px;font-weight:200;line-height:1.4}@media (min-width:768px){.lead{font-size:21px}}.small,small{font-size:85%}cite{font-style:normal}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.text-muted{color:#999}.text-primary{color:#3276b1}a.text-primary:hover{color:#275b89}.text-success{color:#3c763d}a.text-success:hover{color:#2b542c}.text-info{color:#31708f}a.text-info:hover{color:#245269}.text-warning{color:#8a6d3b}a.text-warning:hover{color:#66512c}.text-danger{color:#a94442}a.text-danger:hover{color:#843534}.bg-primary{color:#fff;background-color:#3276b1}a.bg-primary:hover{background-color:#275b89}.bg-success{background-color:#dff0d8}a.bg-success:hover{background-color:#c1e2b3}.bg-info{background-color:#d9edf7}a.bg-info:hover{background-color:#afd9ee}.bg-warning{background-color:#fcf8e3}a.bg-warning:hover{background-color:#f7ecb5}.bg-danger{background-color:#f2dede}a.bg-danger:hover{background-color:#e4b9b9}.page-header{padding-bottom:9px;margin:40px 0 20px;border-bottom:1px solid #eee}ol,ul{margin-top:0;margin-bottom:10px}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}.list-unstyled{padding-left:0;list-style:none}.list-inline{padding-left:0;list-style:none;margin-left:-5px}.list-inline>li{display:inline-block;padding-left:5px;padding-right:5px}dl{margin-top:0;margin-bottom:20px}dd,dt{line-height:1.42857143}dt{font-weight:700}dd{margin-left:0}@media (min-width:768px){.dl-horizontal dt{float:left;width:160px;clear:left;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dl-horizontal dd{margin-left:180px}}abbr[data-original-title],abbr[title]{cursor:help;border-bottom:1px dotted #999}.initialism{font-size:90%;text-transform:uppercase}blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px solid #eee}blockquote ol:last-child,blockquote p:last-child,blockquote ul:last-child{margin-bottom:0}blockquote .small,blockquote footer,blockquote small{display:block;font-size:80%;line-height:1.42857143;color:#999}blockquote .small:before,blockquote footer:before,blockquote small:before{content:'\2014 \00A0'}.blockquote-reverse,blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #eee;border-left:0;text-align:right}.blockquote-reverse .small:before,.blockquote-reverse footer:before,.blockquote-reverse small:before,blockquote.pull-right .small:before,blockquote.pull-right footer:before,blockquote.pull-right small:before{content:''}.blockquote-reverse .small:after,.blockquote-reverse footer:after,.blockquote-reverse small:after,blockquote.pull-right .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after{content:'\00A0 \2014'}blockquote:after,blockquote:before{content:""}address{margin-bottom:20px;font-style:normal;line-height:1.42857143}.container,.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:0}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:0}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:0}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:0}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:0}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:0}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:0}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:0}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn.active:focus,.btn:active:focus,.btn:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:focus,.btn:hover{color:#333;text-decoration:none}.btn.active,.btn:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default.active,.btn-default:active,.btn-default:focus,.btn-default:hover,.open .dropdown-toggle.btn-default{color:#333;background-color:#ebebeb;border-color:#adadad}.btn-default.active,.btn-default:active,.open .dropdown-toggle.btn-default{background-image:none}.btn-default.disabled,.btn-default.disabled.active,.btn-default.disabled:active,.btn-default.disabled:focus,.btn-default.disabled:hover,.btn-default[disabled],.btn-default[disabled].active,.btn-default[disabled]:active,.btn-default[disabled]:focus,.btn-default[disabled]:hover,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:hover{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#3276b1;border-color:#2c699d;transition:background-color .5s}.btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open .dropdown-toggle.btn-primary{color:#fff;background-color:#296191;border-color:#1f496d}.btn-primary.active,.btn-primary:active,.open .dropdown-toggle.btn-primary{background-image:none}.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{background-color:#3276b1;border-color:#2c699d}.btn-primary .badge{color:#3276b1;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success.active,.btn-success:active,.btn-success:focus,.btn-success:hover,.open .dropdown-toggle.btn-success{color:#fff;background-color:#47a447;border-color:#398439}.btn-success.active,.btn-success:active,.open .dropdown-toggle.btn-success{background-image:none}.btn-success.disabled,.btn-success.disabled.active,.btn-success.disabled:active,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled],.btn-success[disabled].active,.btn-success[disabled]:active,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success.active,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info.active,.btn-info:active,.btn-info:focus,.btn-info:hover,.open .dropdown-toggle.btn-info{color:#fff;background-color:#39b3d7;border-color:#269abc}.btn-info.active,.btn-info:active,.open .dropdown-toggle.btn-info{background-image:none}.btn-info.disabled,.btn-info.disabled.active,.btn-info.disabled:active,.btn-info.disabled:focus,.btn-info.disabled:hover,.btn-info[disabled],.btn-info[disabled].active,.btn-info[disabled]:active,.btn-info[disabled]:focus,.btn-info[disabled]:hover,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info.active,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:hover{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning.active,.btn-warning:active,.btn-warning:focus,.btn-warning:hover,.open .dropdown-toggle.btn-warning{color:#fff;background-color:#ed9c28;border-color:#d58512}.btn-warning.active,.btn-warning:active,.open .dropdown-toggle.btn-warning{background-image:none}.btn-warning.disabled,.btn-warning.disabled.active,.btn-warning.disabled:active,.btn-warning.disabled:focus,.btn-warning.disabled:hover,.btn-warning[disabled],.btn-warning[disabled].active,.btn-warning[disabled]:active,.btn-warning[disabled]:focus,.btn-warning[disabled]:hover,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning.active,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:hover{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger.active,.btn-danger:active,.btn-danger:focus,.btn-danger:hover,.open .dropdown-toggle.btn-danger{color:#fff;background-color:#d2322d;border-color:#ac2925}.btn-danger.active,.btn-danger:active,.open .dropdown-toggle.btn-danger{background-image:none}.btn-danger.disabled,.btn-danger.disabled.active,.btn-danger.disabled:active,.btn-danger.disabled:focus,.btn-danger.disabled:hover,.btn-danger[disabled],.btn-danger[disabled].active,.btn-danger[disabled]:active,.btn-danger[disabled]:focus,.btn-danger[disabled]:hover,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger.active,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:hover{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#3276b1;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:active,.btn-link:focus,.btn-link:hover{border-color:transparent}.btn-link:focus,.btn-link:hover{color:#214e75;text-decoration:underline;background-color:transparent}.btn-link[disabled]:focus,.btn-link[disabled]:hover,fieldset[disabled] .btn-link:focus,fieldset[disabled] .btn-link:hover{color:#999;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px;font-size:12px;line-height:1.5;border-radius:3px}.btn-block{display:block;width:100%;padding-left:0;padding-right:0}.btn-block+.btn-block{margin-top:5px}input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-block{width:100%}@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot?x4zayh);src:url(../fonts/icomoon.eot?#iefixx4zayh) format('embedded-opentype'),url(../fonts/icomoon.woff?x4zayh) format('woff'),url(../fonts/icomoon.ttf?x4zayh) format('truetype'),url(../fonts/icomoon.svg?x4zayh#icomoon) format('svg');font-weight:400;font-style:normal}[class*=" icon-"],[class^=icon-]{font-family:icomoon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-xing:before{content:"\e600"}.icon-github:before{content:"\e601"}.icon-email:before{content:"\e602"}.icon-screen:before{content:"\e603"}.icon-mobile:before{content:"\e604"}.icon-mobile2:before{content:"\e605"}.icon-tablet:before{content:"\e606"}.icon-google:before{content:"\e607"}.icon-googleplus:before{content:"\e608"}.icon-facebook:before{content:"\e609"}.icon-twitter:before{content:"\e60a"}.icon-dribbble:before{content:"\e60b"}.icon-github-git:before{content:"\e60c"}.icon-tux:before{content:"\e60d"}.icon-apple:before{content:"\e60e"}.icon-skype:before{content:"\e60f"}.icon-html5:before{content:"\e610"}.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before{content:" ";display:table}.clearfix:after,.container-fluid:after,.container:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed}.mt-0{margin-top:0!important}.mt-10{margin-top:10px!important}.mt-15{margin-top:15px!important}.mt-20{margin-top:20px!important}.mt-25{margin-top:25px!important}.mt-30{margin-top:30px!important}.mt-40{margin-top:40px!important}.mt-50{margin-top:50px!important}.mt-60{margin-top:60px!important}.mt-70{margin-top:70px!important}.mt-80{margin-top:80px!important}.mt-90{margin-top:90px!important}.mt-100{margin-top:100px!important}.mt-110{margin-top:110px!important}.mt-120{margin-top:120px!important}.mb-0{margin-bottom:0!important}.mb-10{margin-bottom:10px!important}.mb-15{margin-bottom:15px!important}.mb-20{margin-bottom:20px!important}.mb-25{margin-bottom:25px!important}.mb-30{margin-bottom:30px!important}.mb-40{margin-bottom:40px!important}.mb-50{margin-bottom:50px!important}.mb-60{margin-bottom:60px!important}.mb-70{margin-bottom:70px!important}.mb-80{margin-bottom:80px!important}.mb-90{margin-bottom:90px!important}.mr-0{margin-right:0!important}.mr-10{margin-right:10px!important}.mr-15{margin-right:15px!important}.mr-20{margin-right:20px!important}.mr-25{margin-right:25px!important}.mr-30{margin-right:30px!important}.mr-40{margin-right:40px!important}.mr-50{margin-right:50px!important}.mr-60{margin-right:60px!important}.mr-70{margin-right:70px!important}.mr-80{margin-right:80px!important}.mr-90{margin-right:90px!important}@media only screen and (min-width:0) and (max-width:767px){.mt-xs-0{margin-top:0!important}.mt-xs-10{margin-top:10px!important}.mt-xs-15{margin-top:15px!important}.mt-xs-20{margin-top:20px!important}.mt-xs-25{margin-top:25px!important}.mt-xs-30{margin-top:30px!important}.mt-xs-40{margin-top:40px!important}.mt-xs-50{margin-top:50px!important}.mt-xs-60{margin-top:60px!important}.mt-xs-70{margin-top:70px!important}.mt-xs-80{margin-top:80px!important}.mt-xs-90{margin-top:90px!important}.mt-xs-100{margin-top:100px!important}.mt-xs-110{margin-top:110px!important}.mt-xs-120{margin-top:120px!important}.mb-xs-0{margin-bottom:0!important}.mb-xs-10{margin-bottom:10px!important}.mb-xs-15{margin-bottom:15px!important}.mb-xs-20{margin-bottom:20px!important}.mb-xs-25{margin-bottom:25px!important}.mb-xs-30{margin-bottom:30px!important}.mb-xs-40{margin-bottom:40px!important}.mb-xs-50{margin-bottom:50px!important}.mb-xs-60{margin-bottom:60px!important}.mb-xs-70{margin-bottom:70px!important}.mb-xs-80{margin-bottom:80px!important}.mb-xs-90{margin-bottom:90px!important}.mr-xs-0{margin-right:0!important}.mr-xs-10{margin-right:10px!important}.mr-xs-15{margin-right:15px!important}.mr-xs-20{margin-right:20px!important}.mr-xs-25{margin-right:25px!important}.mr-xs-30{margin-right:30px!important}.mr-xs-40{margin-right:40px!important}.mr-xs-50{margin-right:50px!important}.mr-xs-60{margin-right:60px!important}.mr-xs-70{margin-right:70px!important}.mr-xs-80{margin-right:80px!important}.mr-xs-90{margin-right:90px!important}}@media only screen and (min-width:767px) and (max-width:991px){.mt-sm-0{margin-top:0!important}.mt-sm-10{margin-top:10px!important}.mt-sm-15{margin-top:15px!important}.mt-sm-20{margin-top:20px!important}.mt-sm-25{margin-top:25px!important}.mt-sm-30{margin-top:30px!important}.mt-sm-40{margin-top:40px!important}.mt-sm-50{margin-top:50px!important}.mt-sm-60{margin-top:60px!important}.mt-sm-70{margin-top:70px!important}.mt-sm-80{margin-top:80px!important}.mt-sm-90{margin-top:90px!important}.mt-sm-100{margin-top:100px!important}.mt-sm-110{margin-top:110px!important}.mt-sm-120{margin-top:120px!important}.mb-sm-0{margin-bottom:0!important}.mb-sm-10{margin-bottom:10px!important}.mb-sm-15{margin-bottom:15px!important}.mb-sm-20{margin-bottom:20px!important}.mb-sm-25{margin-bottom:25px!important}.mb-sm-30{margin-bottom:30px!important}.mb-sm-40{margin-bottom:40px!important}.mb-sm-50{margin-bottom:50px!important}.mb-sm-60{margin-bottom:60px!important}.mb-sm-70{margin-bottom:70px!important}.mb-sm-80{margin-bottom:80px!important}.mb-sm-90{margin-bottom:90px!important}.mr-sm-0{margin-right:0!important}.mr-sm-10{margin-right:10px!important}.mr-sm-15{margin-right:15px!important}.mr-sm-20{margin-right:20px!important}.mr-sm-25{margin-right:25px!important}.mr-sm-30{margin-right:30px!important}.mr-sm-40{margin-right:40px!important}.mr-sm-50{margin-right:50px!important}.mr-sm-60{margin-right:60px!important}.mr-sm-70{margin-right:70px!important}.mr-sm-80{margin-right:80px!important}.mr-sm-90{margin-right:90px!important}}@-ms-viewport{width:device-width}.visible-lg,.visible-md,.visible-print,.visible-sm,.visible-xs{display:none!important}@media (max-width:767px){.visible-xs{display:block!important}table.visible-xs{display:table}tr.visible-xs{display:table-row!important}td.visible-xs,th.visible-xs{display:table-cell!important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block!important}table.visible-sm{display:table}tr.visible-sm{display:table-row!important}td.visible-sm,th.visible-sm{display:table-cell!important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block!important}table.visible-md{display:table}tr.visible-md{display:table-row!important}td.visible-md,th.visible-md{display:table-cell!important}}@media (min-width:1200px){.visible-lg{display:block!important}table.visible-lg{display:table}tr.visible-lg{display:table-row!important}td.visible-lg,th.visible-lg{display:table-cell!important}}@media (max-width:767px){.hidden-xs{display:none!important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none!important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none!important}}@media (min-width:1200px){.hidden-lg{display:none!important}}@media print{.visible-print{display:block!important}table.visible-print{display:table}tr.visible-print{display:table-row!important}td.visible-print,th.visible-print{display:table-cell!important}}@media print{.hidden-print{display:none!important}}#header{background-color:#222429;position:relative}#header img.photo{width:100%}#header .board{position:absolute;top:0;right:0;width:47%;height:100%}#header .board .bg{width:100%;height:100%;background-color:#222429;opacity:.4}#header .board .content{position:absolute;top:14%;left:0;color:#fff;width:100%;text-align:center;-webkit-animation:fadein 2s;animation:fadein 2s}#header .board h1{font-size:1.785em;font-family:'Bree Serif',Helvetica,Arial,sans-serif}#header .board h2{font-size:1.428em}#header.small{background-color:#222429;color:#fff;padding:50px 0}@-webkit-keyframes fadein{from{opacity:0;margin-top:-20px}to{opacity:1;margin-top:0}}@keyframes fadein{from{opacity:0;margin-top:-20px}to{opacity:1;margin-top:0}}@media (max-width:768px){#header img.photo{width:100%;margin-left:-22%}#header .board{width:69%}#header .board .content{top:5%}#header .board .content h1{font-size:1.4em}#header .board .content h2{font-size:1em}}@media (max-width:480px){#header{position:static}#header img.photo{width:150%;margin-left:-7%}#header .board{position:static;width:100%;padding:20px 0 30px}#header .board .bg{opacity:1}#header .board .content{position:static}}#footer{padding:100px 0 40px;background-color:#0d2034;color:#fff;text-align:center}.social-links{padding-left:0;list-style:none;margin-bottom:60px}.social-links li{display:inline-block;margin:5px}.social-links a{background-color:#8e9f3c;border-radius:5px;display:inline-block;padding:25px}.social-links a:before{font-size:3em;color:#000}.social-links a:active,.social-links a:focus,.social-links a:hover{text-decoration:none;background-color:#bfd74b;transition:background-color .5s}.social-links a:active:before,.social-links a:focus:before,.social-links a:hover:before{color:#3276b1;transition:color .5s}
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* line 9, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* line 19, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+body {
+  margin: 0;
+}
+/* line 30, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/* line 50, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+/* line 63, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/* line 73, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+[hidden],
+template {
+  display: none;
+}
+/* line 85, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+a {
+  background: transparent;
+}
+/* line 93, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* line 105, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/* line 113, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+b,
+strong {
+  font-weight: bold;
+}
+/* line 122, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+dfn {
+  font-style: italic;
+}
+/* line 131, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* line 140, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/* line 149, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+small {
+  font-size: 80%;
+}
+/* line 157, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+/* line 165, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+sup {
+  top: -0.5em;
+}
+/* line 169, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+sub {
+  bottom: -0.25em;
+}
+/* line 180, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+img {
+  border: 0;
+}
+/* line 188, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* line 199, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+figure {
+  margin: 1em 40px;
+}
+/* line 207, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+/* line 217, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+pre {
+  overflow: auto;
+}
+/* line 225, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+/* line 248, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+/* line 262, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button {
+  overflow: visible;
+}
+/* line 273, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button,
+select {
+  text-transform: none;
+}
+/* line 286, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+/* line 298, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/* line 307, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 318, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+input {
+  line-height: normal;
+}
+/* line 330, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 342, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/* line 353, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+/* line 366, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 375, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/* line 386, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+legend {
+  border: 0;
+  padding: 0;
+}
+/* line 395, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+textarea {
+  overflow: auto;
+}
+/* line 404, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+optgroup {
+  font-weight: bold;
+}
+/* line 415, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 420, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/normalize.less */
+td,
+th {
+  padding: 0;
+}
+@media print {
+  /* line 8, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  /* line 15, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 20, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 24, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /* line 29, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  /* line 34, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /* line 40, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  thead {
+    display: table-header-group;
+  }
+  /* line 44, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 49, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  img {
+    max-width: 100% !important;
+  }
+  /* line 53, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 60, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  /* line 67, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  select {
+    background: #fff !important;
+  }
+  /* line 72, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .navbar {
+    display: none;
+  }
+  /* line 76, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  /* line 83, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  /* line 87, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .label {
+    border: 1px solid #000;
+  }
+  /* line 91, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .table {
+    border-collapse: collapse !important;
+  }
+  /* line 95, /home/konstantin/workspace/pluschnikow_de/app/assets/less/reset/print.less */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+/* line 11, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+* {
+  box-sizing: border-box;
+}
+/* line 14, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* line 22, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* line 27, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+/* line 36, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* line 48, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+a {
+  color: #3276b1;
+  text-decoration: none;
+}
+/* line 52, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+a:hover,
+a:focus {
+  color: #214e75;
+  text-decoration: underline;
+}
+/* line 58, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 69, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+figure {
+  margin: 0;
+}
+/* line 76, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+img {
+  vertical-align: middle;
+}
+/* line 81, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 86, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+.img-rounded {
+  border-radius: 6px;
+}
+/* line 93, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 106, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+.img-circle {
+  border-radius: 50%;
+}
+/* line 113, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+/* line 125, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/scaffolding.less */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+/* line 9, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+/* line 16, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+/* line 24, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 30, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+/* line 35, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 41, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+/* line 47, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h1,
+.h1 {
+  font-size: 36px;
+}
+/* line 48, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h2,
+.h2 {
+  font-size: 30px;
+}
+/* line 49, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h3,
+.h3 {
+  font-size: 24px;
+}
+/* line 50, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h4,
+.h4 {
+  font-size: 18px;
+}
+/* line 51, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h5,
+.h5 {
+  font-size: 14px;
+}
+/* line 52, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+h6,
+.h6 {
+  font-size: 12px;
+}
+/* line 58, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+p {
+  margin: 0 0 10px;
+}
+/* line 62, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  /* line 68, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+  .lead {
+    font-size: 21px;
+  }
+}
+/* line 78, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+small,
+.small {
+  font-size: 85%;
+}
+/* line 82, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+cite {
+  font-style: normal;
+}
+/* line 85, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-left {
+  text-align: left;
+}
+/* line 86, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-right {
+  text-align: right;
+}
+/* line 87, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-center {
+  text-align: center;
+}
+/* line 88, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-justify {
+  text-align: justify;
+}
+/* line 91, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-muted {
+  color: #999999;
+}
+/* line 94, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-primary {
+  color: #3276b1;
+}
+/* line 595, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.text-primary:hover {
+  color: #275b89;
+}
+/* line 97, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-success {
+  color: #3c763d;
+}
+/* line 595, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.text-success:hover {
+  color: #2b542c;
+}
+/* line 100, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-info {
+  color: #31708f;
+}
+/* line 595, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.text-info:hover {
+  color: #245269;
+}
+/* line 103, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-warning {
+  color: #8a6d3b;
+}
+/* line 595, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.text-warning:hover {
+  color: #66512c;
+}
+/* line 106, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.text-danger {
+  color: #a94442;
+}
+/* line 595, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.text-danger:hover {
+  color: #843534;
+}
+/* line 113, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.bg-primary {
+  color: #fff;
+  background-color: #3276b1;
+}
+/* line 586, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.bg-primary:hover {
+  background-color: #275b89;
+}
+/* line 119, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.bg-success {
+  background-color: #dff0d8;
+}
+/* line 586, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.bg-success:hover {
+  background-color: #c1e2b3;
+}
+/* line 122, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.bg-info {
+  background-color: #d9edf7;
+}
+/* line 586, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.bg-info:hover {
+  background-color: #afd9ee;
+}
+/* line 125, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.bg-warning {
+  background-color: #fcf8e3;
+}
+/* line 586, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.bg-warning:hover {
+  background-color: #f7ecb5;
+}
+/* line 128, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.bg-danger {
+  background-color: #f2dede;
+}
+/* line 586, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+a.bg-danger:hover {
+  background-color: #e4b9b9;
+}
+/* line 136, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 147, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 151, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+/* line 160, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+/* line 166, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+/* line 170, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 178, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 182, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+dt,
+dd {
+  line-height: 1.42857143;
+}
+/* line 186, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+dt {
+  font-weight: bold;
+}
+/* line 189, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  /* line 200, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* line 207, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+  .dl-horizontal dd {
+    margin-left: 180px;
+  }
+}
+/* line 218, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+/* line 224, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+/* line 230, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eeeeee;
+}
+/* line 239, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+/* line 246, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #999999;
+}
+/* line 254, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+/* line 263, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+  text-align: right;
+}
+/* line 275, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+/* line 276, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+/* line 283, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+/* line 289, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/type.less */
+address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+/* line 10, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 13, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 16, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 19, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+  .container {
+    width: 1170px;
+  }
+}
+/* line 30, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 39, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/grid.less */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 782, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 804, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-12 {
+  width: 100%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-9 {
+  width: 75%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-6 {
+  width: 50%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-3 {
+  width: 25%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+/* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-12 {
+  right: 100%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-9 {
+  right: 75%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-6 {
+  right: 50%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-3 {
+  right: 25%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+/* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-pull-0 {
+  right: 0%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-12 {
+  left: 100%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-9 {
+  left: 75%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-6 {
+  left: 50%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-3 {
+  left: 25%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+/* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-push-0 {
+  left: 0%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+/* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  /* line 804, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-12 {
+    width: 100%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-9 {
+    width: 75%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-6 {
+    width: 50%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-3 {
+    width: 25%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-pull-0 {
+    right: 0%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-push-0 {
+    left: 0%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 804, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-12 {
+    width: 100%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-9 {
+    width: 75%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-6 {
+    width: 50%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-3 {
+    width: 25%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-pull-0 {
+    right: 0%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-12 {
+    left: 100%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-9 {
+    left: 75%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-6 {
+    left: 50%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-3 {
+    left: 25%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-push-0 {
+    left: 0%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 804, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-12 {
+    width: 100%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-9 {
+    width: 75%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-6 {
+    width: 50%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-3 {
+    width: 25%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  /* line 812, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 822, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-pull-0 {
+    right: 0%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 817, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-push-0 {
+    left: 0%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 827, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+/* line 9, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 25, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 30, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 36, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+/* line 43, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+/* line 57, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+/* line 60, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #2c699d;
+  transition: background-color 0.5s;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #296191;
+  border-color: #1f496d;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #3276b1;
+  border-color: #2c699d;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-primary .badge {
+  color: #3276b1;
+  background-color: #ffffff;
+}
+/* line 65, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+/* line 69, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+/* line 73, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+/* line 77, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 504, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+/* line 513, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+/* line 521, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+/* line 531, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+/* line 86, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-link {
+  color: #3276b1;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+/* line 92, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 99, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+/* line 105, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-link:hover,
+.btn-link:focus {
+  color: #214e75;
+  text-decoration: underline;
+  background-color: transparent;
+}
+/* line 113, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+/* line 125, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+/* line 129, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+/* line 133, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+/* line 141, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 149, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+/* line 157, /home/konstantin/workspace/pluschnikow_de/app/assets/less/core/buttons.less */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?x4zayh');
+  src: url('../fonts/icomoon.eot?#iefixx4zayh') format('embedded-opentype'), url('../fonts/icomoon.woff?x4zayh') format('woff'), url('../fonts/icomoon.ttf?x4zayh') format('truetype'), url('../fonts/icomoon.svg?x4zayh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 28, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-xing:before {
+  content: "\e600";
+}
+/* line 31, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-github:before {
+  content: "\e601";
+}
+/* line 34, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-email:before {
+  content: "\e602";
+}
+/* line 37, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-screen:before {
+  content: "\e603";
+}
+/* line 40, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-mobile:before {
+  content: "\e604";
+}
+/* line 43, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-mobile2:before {
+  content: "\e605";
+}
+/* line 46, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-tablet:before {
+  content: "\e606";
+}
+/* line 49, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-google:before {
+  content: "\e607";
+}
+/* line 52, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-googleplus:before {
+  content: "\e608";
+}
+/* line 55, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-facebook:before {
+  content: "\e609";
+}
+/* line 58, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-twitter:before {
+  content: "\e60a";
+}
+/* line 61, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-dribbble:before {
+  content: "\e60b";
+}
+/* line 64, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-github-git:before {
+  content: "\e60c";
+}
+/* line 67, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-tux:before {
+  content: "\e60d";
+}
+/* line 70, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-apple:before {
+  content: "\e60e";
+}
+/* line 73, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-skype:before {
+  content: "\e60f";
+}
+/* line 76, /home/konstantin/workspace/pluschnikow_de/app/assets/less/components/icons.less */
+.icon-html5:before {
+  content: "\e610";
+}
+/* line 20, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+/* line 25, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+/* line 12, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 15, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.pull-right {
+  float: right !important;
+}
+/* line 18, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.pull-left {
+  float: left !important;
+}
+/* line 27, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.hide {
+  display: none !important;
+}
+/* line 30, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.show {
+  display: block !important;
+}
+/* line 33, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.invisible {
+  visibility: hidden;
+}
+/* line 36, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* line 45, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+/* line 54, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.affix {
+  position: fixed;
+}
+/* line 64, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-0 {
+  margin-top: 0 !important;
+}
+/* line 65, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-10 {
+  margin-top: 10px !important;
+}
+/* line 66, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-15 {
+  margin-top: 15px !important;
+}
+/* line 67, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-20 {
+  margin-top: 20px !important;
+}
+/* line 68, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-25 {
+  margin-top: 25px !important;
+}
+/* line 69, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-30 {
+  margin-top: 30px !important;
+}
+/* line 70, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-40 {
+  margin-top: 40px !important;
+}
+/* line 71, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-50 {
+  margin-top: 50px !important;
+}
+/* line 72, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-60 {
+  margin-top: 60px !important;
+}
+/* line 73, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-70 {
+  margin-top: 70px !important;
+}
+/* line 74, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-80 {
+  margin-top: 80px !important;
+}
+/* line 75, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-90 {
+  margin-top: 90px !important;
+}
+/* line 76, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-100 {
+  margin-top: 100px !important;
+}
+/* line 77, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-110 {
+  margin-top: 110px !important;
+}
+/* line 78, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mt-120 {
+  margin-top: 120px !important;
+}
+/* line 80, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+/* line 81, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+/* line 82, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+/* line 83, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+/* line 84, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-25 {
+  margin-bottom: 25px !important;
+}
+/* line 85, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+/* line 86, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+/* line 87, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+/* line 88, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+/* line 89, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+/* line 90, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+/* line 91, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+/* line 93, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-0 {
+  margin-right: 0 !important;
+}
+/* line 94, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-10 {
+  margin-right: 10px !important;
+}
+/* line 95, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-15 {
+  margin-right: 15px !important;
+}
+/* line 96, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-20 {
+  margin-right: 20px !important;
+}
+/* line 97, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-25 {
+  margin-right: 25px !important;
+}
+/* line 98, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-30 {
+  margin-right: 30px !important;
+}
+/* line 99, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-40 {
+  margin-right: 40px !important;
+}
+/* line 100, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-50 {
+  margin-right: 50px !important;
+}
+/* line 101, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-60 {
+  margin-right: 60px !important;
+}
+/* line 102, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-70 {
+  margin-right: 70px !important;
+}
+/* line 103, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-80 {
+  margin-right: 80px !important;
+}
+/* line 104, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+.mr-90 {
+  margin-right: 90px !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  /* line 111, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-0 {
+    margin-top: 0 !important;
+  }
+  /* line 112, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-10 {
+    margin-top: 10px !important;
+  }
+  /* line 113, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-15 {
+    margin-top: 15px !important;
+  }
+  /* line 114, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-20 {
+    margin-top: 20px !important;
+  }
+  /* line 115, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-25 {
+    margin-top: 25px !important;
+  }
+  /* line 116, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-30 {
+    margin-top: 30px !important;
+  }
+  /* line 117, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-40 {
+    margin-top: 40px !important;
+  }
+  /* line 118, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-50 {
+    margin-top: 50px !important;
+  }
+  /* line 119, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-60 {
+    margin-top: 60px !important;
+  }
+  /* line 120, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-70 {
+    margin-top: 70px !important;
+  }
+  /* line 121, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-80 {
+    margin-top: 80px !important;
+  }
+  /* line 122, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-90 {
+    margin-top: 90px !important;
+  }
+  /* line 123, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-100 {
+    margin-top: 100px !important;
+  }
+  /* line 124, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-110 {
+    margin-top: 110px !important;
+  }
+  /* line 125, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-xs-120 {
+    margin-top: 120px !important;
+  }
+  /* line 127, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-0 {
+    margin-bottom: 0 !important;
+  }
+  /* line 128, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-10 {
+    margin-bottom: 10px !important;
+  }
+  /* line 129, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-15 {
+    margin-bottom: 15px !important;
+  }
+  /* line 130, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-20 {
+    margin-bottom: 20px !important;
+  }
+  /* line 131, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-25 {
+    margin-bottom: 25px !important;
+  }
+  /* line 132, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-30 {
+    margin-bottom: 30px !important;
+  }
+  /* line 133, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-40 {
+    margin-bottom: 40px !important;
+  }
+  /* line 134, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-50 {
+    margin-bottom: 50px !important;
+  }
+  /* line 135, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-60 {
+    margin-bottom: 60px !important;
+  }
+  /* line 136, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-70 {
+    margin-bottom: 70px !important;
+  }
+  /* line 137, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-80 {
+    margin-bottom: 80px !important;
+  }
+  /* line 138, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-xs-90 {
+    margin-bottom: 90px !important;
+  }
+  /* line 140, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-0 {
+    margin-right: 0 !important;
+  }
+  /* line 141, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-10 {
+    margin-right: 10px !important;
+  }
+  /* line 142, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-15 {
+    margin-right: 15px !important;
+  }
+  /* line 143, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-20 {
+    margin-right: 20px !important;
+  }
+  /* line 144, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-25 {
+    margin-right: 25px !important;
+  }
+  /* line 145, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-30 {
+    margin-right: 30px !important;
+  }
+  /* line 146, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-40 {
+    margin-right: 40px !important;
+  }
+  /* line 147, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-50 {
+    margin-right: 50px !important;
+  }
+  /* line 148, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-60 {
+    margin-right: 60px !important;
+  }
+  /* line 149, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-70 {
+    margin-right: 70px !important;
+  }
+  /* line 150, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-80 {
+    margin-right: 80px !important;
+  }
+  /* line 151, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-xs-90 {
+    margin-right: 90px !important;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  /* line 159, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-0 {
+    margin-top: 0 !important;
+  }
+  /* line 160, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-10 {
+    margin-top: 10px !important;
+  }
+  /* line 161, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-15 {
+    margin-top: 15px !important;
+  }
+  /* line 162, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-20 {
+    margin-top: 20px !important;
+  }
+  /* line 163, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-25 {
+    margin-top: 25px !important;
+  }
+  /* line 164, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-30 {
+    margin-top: 30px !important;
+  }
+  /* line 165, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-40 {
+    margin-top: 40px !important;
+  }
+  /* line 166, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-50 {
+    margin-top: 50px !important;
+  }
+  /* line 167, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-60 {
+    margin-top: 60px !important;
+  }
+  /* line 168, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-70 {
+    margin-top: 70px !important;
+  }
+  /* line 169, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-80 {
+    margin-top: 80px !important;
+  }
+  /* line 170, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-90 {
+    margin-top: 90px !important;
+  }
+  /* line 171, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-100 {
+    margin-top: 100px !important;
+  }
+  /* line 172, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-110 {
+    margin-top: 110px !important;
+  }
+  /* line 173, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mt-sm-120 {
+    margin-top: 120px !important;
+  }
+  /* line 175, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-0 {
+    margin-bottom: 0 !important;
+  }
+  /* line 176, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-10 {
+    margin-bottom: 10px !important;
+  }
+  /* line 177, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-15 {
+    margin-bottom: 15px !important;
+  }
+  /* line 178, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-20 {
+    margin-bottom: 20px !important;
+  }
+  /* line 179, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-25 {
+    margin-bottom: 25px !important;
+  }
+  /* line 180, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-30 {
+    margin-bottom: 30px !important;
+  }
+  /* line 181, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-40 {
+    margin-bottom: 40px !important;
+  }
+  /* line 182, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-50 {
+    margin-bottom: 50px !important;
+  }
+  /* line 183, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-60 {
+    margin-bottom: 60px !important;
+  }
+  /* line 184, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-70 {
+    margin-bottom: 70px !important;
+  }
+  /* line 185, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-80 {
+    margin-bottom: 80px !important;
+  }
+  /* line 186, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mb-sm-90 {
+    margin-bottom: 90px !important;
+  }
+  /* line 188, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-0 {
+    margin-right: 0 !important;
+  }
+  /* line 189, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-10 {
+    margin-right: 10px !important;
+  }
+  /* line 190, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-15 {
+    margin-right: 15px !important;
+  }
+  /* line 191, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-20 {
+    margin-right: 20px !important;
+  }
+  /* line 192, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-25 {
+    margin-right: 25px !important;
+  }
+  /* line 193, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-30 {
+    margin-right: 30px !important;
+  }
+  /* line 194, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-40 {
+    margin-right: 40px !important;
+  }
+  /* line 195, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-50 {
+    margin-right: 50px !important;
+  }
+  /* line 196, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-60 {
+    margin-right: 60px !important;
+  }
+  /* line 197, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-70 {
+    margin-right: 70px !important;
+  }
+  /* line 198, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-80 {
+    margin-right: 80px !important;
+  }
+  /* line 199, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/utilities.less */
+  .mr-sm-90 {
+    margin-right: 90px !important;
+  }
+}
+@-ms-viewport {
+  width: device-width;
+}
+/* line 26, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  /* line 34, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .visible-xs {
+    display: block !important;
+  }
+  /* line 623, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  table.visible-xs {
+    display: table;
+  }
+  /* line 624, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  /* line 625, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 39, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .visible-sm {
+    display: block !important;
+  }
+  /* line 623, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  table.visible-sm {
+    display: table;
+  }
+  /* line 624, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  tr.visible-sm {
+    display: table-row !important;
+  }
+  /* line 625, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 44, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .visible-md {
+    display: block !important;
+  }
+  /* line 623, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  table.visible-md {
+    display: table;
+  }
+  /* line 624, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  tr.visible-md {
+    display: table-row !important;
+  }
+  /* line 625, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 49, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .visible-lg {
+    display: block !important;
+  }
+  /* line 623, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  table.visible-lg {
+    display: table;
+  }
+  /* line 624, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  tr.visible-lg {
+    display: table-row !important;
+  }
+  /* line 625, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 55, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 60, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 65, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 70, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .hidden-lg {
+    display: none !important;
+  }
+}
+/* line 80, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+.visible-print {
+  display: none !important;
+}
+@media print {
+  /* line 83, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .visible-print {
+    display: block !important;
+  }
+  /* line 623, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  table.visible-print {
+    display: table;
+  }
+  /* line 624, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  tr.visible-print {
+    display: table-row !important;
+  }
+  /* line 625, /home/konstantin/workspace/pluschnikow_de/app/assets/less/mixins/mixins.less */
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+@media print {
+  /* line 89, /home/konstantin/workspace/pluschnikow_de/app/assets/less/utilities/responsive-utilities.less */
+  .hidden-print {
+    display: none !important;
+  }
+}
+/* line 3, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header {
+  background-color: #222429;
+  position: relative;
+}
+/* line 7, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header img.photo {
+  width: 100%;
+}
+/* line 11, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header .board {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 47%;
+  height: 100%;
+}
+/* line 19, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header .board .bg {
+  width: 100%;
+  height: 100%;
+  background-color: #222429;
+  opacity: 0.4;
+}
+/* line 25, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header .board .content {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+}
+/* line 34, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header .board h1 {
+  font-size: 1.785em;
+}
+/* line 37, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header .board h2 {
+  font-size: 1.428em;
+}
+/* line 42, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+#header.small {
+  background-color: #222429;
+  color: #fff;
+  padding: 50px 0;
+}
+@-webkit-keyframes fadein {
+  /* line 51, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  /* line 55, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes fadein {
+  /* line 51, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  from {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  /* line 55, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 65, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header img.photo {
+    width: 100%;
+    margin-left: -22%;
+  }
+  /* line 70, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board {
+    width: 69%;
+  }
+  /* line 73, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board .content {
+    top: 5%;
+  }
+  /* line 75, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board .content h1 {
+    font-size: 1.4em;
+  }
+  /* line 78, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board .content h2 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 480px) {
+  /* line 88, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header {
+    position: static;
+    overflow-x: hidden;
+  }
+  /* line 92, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header img.photo {
+    width: 150%;
+    margin-left: -7%;
+  }
+  /* line 97, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board {
+    position: static;
+    width: 100%;
+    padding: 20px 0 30px;
+  }
+  /* line 102, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board .bg {
+    opacity: 1;
+  }
+  /* line 105, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/header.less */
+  #header .board .content {
+    position: static;
+  }
+}
+/* line 3, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+#footer {
+  padding: 100px 0 40px;
+  background-color: #0d2034;
+  color: #fff;
+  text-align: center;
+}
+/* line 10, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 60px;
+}
+/* line 16, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links li {
+  display: inline-block;
+  margin: 5px;
+}
+/* line 21, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links a {
+  background-color: #8e9f3c;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 25px;
+}
+/* line 27, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links a:before {
+  font-size: 3em;
+  color: #000;
+}
+/* line 32, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links a:hover,
+.social-links a:active,
+.social-links a:focus {
+  text-decoration: none;
+  background-color: #bfd74b;
+  transition: background-color 0.5s;
+}
+/* line 39, /home/konstantin/workspace/pluschnikow_de/app/assets/less/modules/footer.less */
+.social-links a:hover:before,
+.social-links a:active:before,
+.social-links a:focus:before {
+  color: #3276b1;
+  transition: color 0.5s;
+}
