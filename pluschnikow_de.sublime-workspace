@@ -440,26 +440,18 @@
 			}
 		},
 		{
-			"file": "assets/less/modules/footer.less",
+			"file": "templates/layouts/default-small.ejs",
 			"settings":
 			{
-				"buffer_size": 651,
+				"buffer_size": 889,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/less/core/fonts.less",
+			"file": "templates/includes/components/header-small.ejs",
 			"settings":
 			{
-				"buffer_size": 127,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/less/variables.less",
-			"settings":
-			{
-				"buffer_size": 25526,
+				"buffer_size": 308,
 				"line_ending": "Unix"
 			}
 		},
@@ -467,31 +459,7 @@
 			"file": "templates/views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 746,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 4803,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/main.js",
-			"settings":
-			{
-				"buffer_size": 40,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/includes/base/head.ejs",
-			"settings":
-			{
-				"buffer_size": 309,
+				"buffer_size": 611,
 				"line_ending": "Unix"
 			}
 		},
@@ -499,7 +467,7 @@
 			"file": "templates/includes/components/footer.ejs",
 			"settings":
 			{
-				"buffer_size": 655,
+				"buffer_size": 798,
 				"line_ending": "Unix"
 			}
 		},
@@ -507,15 +475,63 @@
 			"file": "routes/index.js",
 			"settings":
 			{
-				"buffer_size": 1783,
+				"buffer_size": 1802,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/views/siteNotice.ejs",
+			"file": "routes/views/dataPrivacy.js",
 			"settings":
 			{
-				"buffer_size": 747,
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/components/header.ejs",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/components/icons.less",
+			"settings":
+			{
+				"buffer_size": 1449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/dataPrivacy.ejs",
+			"settings":
+			{
+				"buffer_size": 3330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/views/legal.ejs",
+			"settings":
+			{
+				"buffer_size": 2226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/modules/header.less",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/modules/footer.less",
+			"settings":
+			{
+				"buffer_size": 651,
 				"line_ending": "Unix"
 			}
 		}
@@ -568,10 +584,18 @@
 	},
 	"file_history":
 	[
+		"/home/konstantin/workspace/pluschnikow_de/assets/js/main.js",
+		"/home/konstantin/workspace/pluschnikow_de/Gruntfile.js",
+		"/home/konstantin/workspace/pluschnikow_de/assets/less/variables.less",
+		"/home/konstantin/workspace/pluschnikow_de/assets/less/core/fonts.less",
+		"/home/konstantin/workspace/pluschnikow_de/routes/views/siteNotice.js",
+		"/home/konstantin/workspace/pluschnikow_de/routes/views/legal.js",
+		"/home/konstantin/workspace/pluschnikow_de/templates/views/siteNotice.ejs",
+		"/home/konstantin/workspace/pluschnikow_de/assets/less/modules/footer.less",
+		"/home/konstantin/workspace/pluschnikow_de/templates/includes/base/head.ejs",
 		"/home/konstantin/workspace/pluschnikow_de/templates/includes/base/foot.ejs",
 		"/home/konstantin/workspace/pluschnikow_de/package.json",
 		"/home/konstantin/workspace/pluschnikow.de/app/scripts/main.js",
-		"/home/konstantin/workspace/pluschnikow_de/templates/includes/base/head.ejs",
 		"/home/konstantin/workspace/pluschnikow_de/assets/less/modules/header.less",
 		"/home/konstantin/workspace/pluschnikow_de/assets/less/base.less",
 		"/home/konstantin/workspace/pluschnikow_de/routes/index.js",
@@ -582,7 +606,6 @@
 		"/home/konstantin/workspace/pluschnikow_de/.gitignore",
 		"/home/konstantin/workspace/pluschnikow_de/assets/less/bootstrap/icons.less",
 		"/home/konstantin/.cache/.fr-TcXSHy/style.css",
-		"/home/konstantin/workspace/pluschnikow_de/Gruntfile.js",
 		"/home/konstantin/workspace/pluschnikow_de/pluschnikow_de.sublime-project",
 		"/home/konstantin/workspace/pluschnikow.de/app/styles/main.scss",
 		"/home/konstantin/workspace/pluschnikow_de/assets/less/bootstrap/utilities.less",
@@ -688,14 +711,7 @@
 		"/home/konstantin/workspace/aktion-mensch/src/js/configurator/_src/fabricjs_textarea.js",
 		"/home/konstantin/workspace/aktion-mensch/src/js/configurator/_src/background.js",
 		"/home/konstantin/workspace/aktion-mensch/src/js/configurator/_src/controls.js",
-		"/home/konstantin/workspace/aktion-mensch/src/js/components/pk-shop/src/form-beneficiary.js",
-		"/home/konstantin/workspace/aktion-mensch/src/_includes/configurator/lotLayout/outside/background/slider.html",
-		"/home/konstantin/workspace/aktion-mensch/src/_includes/configurator/lotLayout/outside/tmp-text.html",
-		"/home/konstantin/workspace/aktion-mensch/src/js/configurator/_base/conf-controller.js",
-		"/home/konstantin/workspace/aktion-mensch/src/js/configurator/conf-base.js",
-		"/home/konstantin/workspace/aktion-mensch/src/_includes/configurator/lotLayout/outside/template-data.html",
-		"/home/konstantin/workspace/aktion-mensch/src/js/vendor/bootstrap/popover.js",
-		"/home/konstantin/workspace/aktion-mensch/src/pk/page_am-p.6.1.5.html"
+		"/home/konstantin/workspace/aktion-mensch/src/js/components/pk-shop/src/form-beneficiary.js"
 	],
 	"find":
 	{
@@ -703,7 +719,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/home/konstantin/workspace/pluschnikow_de/assets",
@@ -756,6 +772,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<br/>",
 			"fonts",
 			"#fff",
 			"#222429",
@@ -882,8 +899,7 @@
 			"mr-",
 			"mb-",
 			"mt-",
-			"10",
-			"mt-10"
+			"10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -891,6 +907,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<br>",
 			"  ",
 			"@import \"bootstrap/",
 			"..",
@@ -1017,8 +1034,7 @@
 			"icon--",
 			"",
 			"icon--",
-			"configurator",
-			"form"
+			"configurator"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1029,7 +1045,6 @@
 	"groups":
 	[
 		{
-			"selected": 9,
 			"sheets":
 			[
 				{
@@ -1044,12 +1059,8 @@
 						"selection":
 						[
 							[
-								409,
-								409
-							],
-							[
-								864,
-								864
+								668,
+								668
 							]
 						],
 						"settings":
@@ -1110,18 +1121,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "assets/less/modules/footer.less",
+					"file": "templates/layouts/default-small.ejs",
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								670,
+								670
 							]
 						],
 						"settings":
@@ -1170,7 +1181,7 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1182,18 +1193,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/less/core/fonts.less",
+					"file": "templates/includes/components/header-small.ejs",
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								256,
+								256
 							]
 						],
 						"settings":
@@ -1242,7 +1253,9 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1252,18 +1265,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "assets/less/variables.less",
+					"file": "templates/views/index.ejs",
 					"settings":
 					{
-						"buffer_size": 25526,
+						"buffer_size": 611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1127,
-								1127
+								496,
+								496
 							]
 						],
 						"settings":
@@ -1312,30 +1325,30 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "templates/views/index.ejs",
+					"file": "templates/includes/components/footer.ejs",
 					"settings":
 					{
-						"buffer_size": 746,
+						"buffer_size": 798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								746,
-								746
+								518,
+								518
 							]
 						],
 						"settings":
@@ -1396,300 +1409,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 4803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3044,
-								3044
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1710.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "assets/js/main.js",
-					"settings":
-					{
-						"buffer_size": 40,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/includes/base/head.ejs",
-					"settings":
-					{
-						"buffer_size": 309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "templates/includes/components/footer.ejs",
-					"settings":
-					{
-						"buffer_size": 655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								620,
-								620
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "routes/index.js",
 					"settings":
 					{
-						"buffer_size": 1783,
+						"buffer_size": 1802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1202,
-								1214
+								1401,
+								1401
 							]
 						],
 						"settings":
@@ -1748,19 +1479,90 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "templates/views/siteNotice.ejs",
+					"buffer": 6,
+					"file": "routes/views/dataPrivacy.js",
 					"settings":
 					{
-						"buffer_size": 747,
+						"buffer_size": 249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								718,
-								718
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/includes/components/header.ejs",
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
 							]
 						],
 						"settings":
@@ -1810,6 +1612,366 @@
 								"bh_single_quote_close"
 							],
 							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/less/components/icons.less",
+					"settings":
+					{
+						"buffer_size": 1449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/views/dataPrivacy.ejs",
+					"settings":
+					{
+						"buffer_size": 3330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/views/legal.ejs",
+					"settings":
+					{
+						"buffer_size": 2226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/less/modules/header.less",
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "assets/less/modules/footer.less",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1866,6 +2028,38 @@
 		"selected_items":
 		[
 			[
+				"footer",
+				"assets/less/modules/footer.less"
+			],
+			[
+				"data",
+				"templates/views/dataPrivacy.ejs"
+			],
+			[
+				"le",
+				"templates/views/legal.ejs"
+			],
+			[
+				"header",
+				"assets/less/modules/header.less"
+			],
+			[
+				"no",
+				"templates/views/siteNotice.ejs"
+			],
+			[
+				"icons",
+				"assets/less/components/icons.less"
+			],
+			[
+				"heade",
+				"templates/includes/components/header.ejs"
+			],
+			[
+				"header.ejs",
+				"templates/includes/components/header.ejs"
+			],
+			[
 				"route",
 				"routes/index.js"
 			],
@@ -1900,10 +2094,6 @@
 			[
 				"but",
 				"assets/less/bootstrap/buttons.less"
-			],
-			[
-				"icons",
-				"assets/less/bootstrap/icons.less"
 			],
 			[
 				"icon",
@@ -1996,10 +2186,6 @@
 			[
 				"elem",
 				"src/css/less/gk/elements/elements.less"
-			],
-			[
-				"header",
-				"src/website/header_desc.html"
 			],
 			[
 				"index",
@@ -2352,30 +2538,6 @@
 			[
 				"m-p.5.6.1.less",
 				"src/css/less/pk/service/am-p.5.6.1.less"
-			],
-			[
-				"-p.5.6.1.htm",
-				"src/_includes/pk/services/am-p.5.6.1.html"
-			],
-			[
-				"patt",
-				"src/css/less/pk/patterns/patterns.less"
-			],
-			[
-				"ze042",
-				"src/_includes/pk/patterns/ze042.html"
-			],
-			[
-				"ze047",
-				"src/_includes/pk/patterns/ze047.html"
-			],
-			[
-				"5.1.html",
-				"src/_includes/pk/home/am-p.5.1.html"
-			],
-			[
-				"am-p.5.11.3.html",
-				"src/_includes/pk/satellites/am-p.5.11.3.html"
 			]
 		],
 		"width": 0.0

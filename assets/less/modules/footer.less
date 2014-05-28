@@ -2,7 +2,7 @@
 
 #footer {
   padding: 100px 0 40px;
-  background-color: #0d2034;
+  background-color: @footer-bg;
   color: #fff;
   text-align: center;
 }
@@ -19,8 +19,7 @@
   }
 
   a {
-    
-    background-color: #8e9f3c;
+    background-color: @social-link-bg;
     border-radius: 5px;
     display: inline-block;
     padding: 25px;
@@ -34,15 +33,13 @@
     &:active,
     &:focus {
       text-decoration: none;
-      background-color: #bfd74b;
+      background-color: @social-link-bg-hover;
       transition: background-color 0.5s;
 
       &:before {
-        color: #3276b1;
+        color: @social-link-hover;
         transition: color 0.5s;
-
       }
-
     }
   }
 }

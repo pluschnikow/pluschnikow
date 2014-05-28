@@ -9,7 +9,8 @@
     "underscore": "~1.5.2",
     "dotenv": "0.0.3",
     "ejs": "~0.8.5",
-    "ejs-locals": "*"
+    "ejs-locals": "*",
+    "grunt-uncss": "~0.3.4"
   },
   "devDependencies": {
     "grunt": "~0.4.4",

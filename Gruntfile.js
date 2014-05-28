@@ -155,6 +155,14 @@ module.exports = function( grunt ) {
       }
     },
 
+    uncss: {
+      dist: {
+        files: {
+          'public/css/style.css': ['templates/views/index.html']
+        }
+      }
+    },
+
     // Javascript Concat (based on `usemin` (temp.) configuration)
     concat: {
       dist: {
@@ -191,10 +199,9 @@ module.exports = function( grunt ) {
   grunt.registerTask('build', [
     'less',
     'autoprefixer',
-    'cssmin',
+    //'cssmin',
     'concat',
-    'uglify',
-    // 'usemin' // @todo: Use rev's
+    'uglify'
   ]);
 
   grunt.registerTask('server', [
@@ -204,6 +211,7 @@ module.exports = function( grunt ) {
 
   grunt.registerTask('dev', ['server']);
   grunt.registerTask('prod', ['jshint:all', 'build']);
+  grunt.registerTask('uncss', ['uncss']);
   grunt.registerTask('default', ['dev']);
 
 };
