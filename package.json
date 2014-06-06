@@ -18,7 +18,8 @@
     "ejs-locals": "*",
     "passport": "~0.1.18",
     "passport-local": "~0.1.6",
-    "express-device": "~0.3.7"
+    "express-device": "~0.3.7",
+    "node-force-domain": "0.1.0"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
