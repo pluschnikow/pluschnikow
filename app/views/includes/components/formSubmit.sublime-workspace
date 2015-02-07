@@ -432,35 +432,34 @@
 	"buffers":
 	[
 		{
-			"contents": "##first\n\nlisp\n\n\n## second\n\nvert.x\n\n## \n\nwebRTC\n\n",
+			"file": "/home/konstantin/workspace/jquery.formSubmit/.gitignore",
 			"settings":
 			{
-				"buffer_size": 48,
-				"line_ending": "Unix",
-				"name": "##first"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 4892,
+				"buffer_size": 151,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\nbower angularJS grunt-task-loader ",
+			"file": "formSubmit.sublime-project",
 			"settings":
 			{
-				"buffer_size": 35,
+				"buffer_size": 88,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/includes/components/footer.ejs",
+			"file": "/home/konstantin/Downloads/xdk_web_linux64/install.sh",
 			"settings":
 			{
-				"buffer_size": 798,
+				"buffer_size": 25685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/konstantin/workspace/jquery.formSubmit/formSubmit.sublime-project",
+			"settings":
+			{
+				"buffer_size": 161,
 				"line_ending": "Unix"
 			}
 		}
@@ -974,28 +973,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/home/konstantin/workspace/jquery.formSubmit/.gitignore",
 					"settings":
 					{
-						"buffer_size": 48,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								48,
-								48
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_name": "##first",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1053,18 +1052,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Gruntfile.js",
+					"file": "formSubmit.sublime-project",
 					"settings":
 					{
-						"buffer_size": 4892,
+						"buffer_size": 88,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4892,
-								4892
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1117,35 +1116,33 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 785.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/home/konstantin/Downloads/xdk_web_linux64/install.sh",
 					"settings":
 					{
-						"buffer_size": 35,
+						"buffer_size": 25685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_name": "",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1193,7 +1190,9 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1203,18 +1202,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/includes/components/footer.ejs",
+					"file": "/home/konstantin/workspace/jquery.formSubmit/formSubmit.sublime-project",
 					"settings":
 					{
-						"buffer_size": 798,
+						"buffer_size": 161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								788,
-								788
+								84,
+								84
 							]
 						],
 						"settings":
@@ -1267,9 +1266,7 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1325,10 +1322,6 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"grun",
-				"Gruntfile.js"
-			],
 			[
 				"grunt",
 				"Gruntfile.js"
@@ -1408,6 +1401,10 @@
 			[
 				"route",
 				"routes/index.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
 			],
 			[
 				"theme.less",
@@ -1847,7 +1844,7 @@
 		[
 			[
 				"",
-				"/home/konstantin/workspace/aktion-mensch/src/css/less/website/patterns/dellentechnik-sattler.sublime-project"
+				"/home/konstantin/workspace/jquery.formSubmit/formSubmit.sublime-project"
 			]
 		],
 		"width": 380.0
